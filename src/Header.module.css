@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin-left: 2rem;
+  display: block;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.p {
+  margin: 1rem;
+}
+
+.icon {
+  height: 1.5rem;
+  vertical-align: middle;
+  display: inline;
+}

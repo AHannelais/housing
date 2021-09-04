@@ -8,16 +8,19 @@ export function DownloadButton({ source }: Props) {
   const onClickDownload = () => {
     let link = document.createElement("a");
     link.setAttribute("type", "hidden");
-    link.href = "assets/file";
-    link.download = source;
+    console.log(source);
+    link.href = source;
+    link.download = source.split("/")[2];
     document.body.appendChild(link);
     link.click();
     link.remove();
   };
 
   return (
-    <button onClick={onClickDownload}>
-      <i class={styles.icon} />
-    </button>
+    <>
+      <button onClick={onClickDownload} class={styles.button}>
+        <img src="src/assets/download.svg" class={styles.icon} />
+      </button>
+    </>
   );
 }

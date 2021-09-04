@@ -1,3 +1,5 @@
+import styles from "./Article.module.css";
+
 export function Article() {
   const onClickVisale = () => {
     window.open(
@@ -6,7 +8,8 @@ export function Article() {
     );
   };
   return (
-    <article>
+    <article class={styles.article}>
+      <img src="src/assets/profil.jpg" class={styles.image} />
       <section>
         <p>
           Je suis un jeune développeur web de 24 ans travaillant sur Paris
