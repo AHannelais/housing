@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #feffc7;
+  color: gray;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.heart {
+  color: red;
+}
