@@ -1,4 +1,6 @@
 import styles from "./Header.module.css";
+import phone from "./assets/smartphone.svg";
+import email from "./assets/email.svg";
 
 export function Header() {
   return (
@@ -6,11 +8,10 @@ export function Header() {
       <h1 class={styles.title}>Bonjour à vous</h1>
       <div class={styles.contacts}>
         <p class={styles.p}>
-          <img src="src/assets/smartphone.svg" class={styles.icon} />{" "}
-          <span>+33633772962</span>
+          <img src={phone} class={styles.icon} /> <span>+33633772962</span>
         </p>
         <p class={styles.p}>
-          <img src="src/assets/email.svg" class={styles.icon} />{" "}
+          <img src={email} class={styles.icon} />{" "}
           <span>antoine.hannelais@gmail.com</span>
         </p>
       </div>

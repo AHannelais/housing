@@ -1,4 +1,5 @@
 import styles from "./DownloadButton.module.css";
+import download from "./assets/download.svg";
 
 interface Props {
   source: string;
@@ -19,7 +20,7 @@ export function DownloadButton({ source }: Props) {
   return (
     <>
       <button onClick={onClickDownload} class={styles.button}>
-        <img src="src/assets/download.svg" class={styles.icon} />
+        <img src={download} class={styles.icon} />
       </button>
     </>
   );
