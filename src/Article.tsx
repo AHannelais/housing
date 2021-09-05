@@ -10,7 +10,7 @@ export function Article() {
   };
   return (
     <article class={styles.article}>
-      <img src={profile} class={styles.image} />
+      <img src={profile} class={styles.image} loading="lazy" />
       <section>
         <p>
           Je suis un jeune développeur web de 24 ans travaillant sur Paris
