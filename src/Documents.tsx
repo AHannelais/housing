@@ -12,31 +12,45 @@ export function Documents() {
   return (
     <ul class={styles.list}>
       <li>
-        <DownloadButton source={passeport} />
+        <div>
+          <DownloadButton source={passeport} />
+        </div>
         <p>Passeport</p>
       </li>
       <li>
-        <DownloadButton source={paie_mai} />
+        <div>
+          <DownloadButton source={paie_mai} />
+        </div>
         <p>Bulletin de paie Mai 2021</p>
       </li>
       <li>
-        <DownloadButton source={paie_juin} />
+        <div>
+          <DownloadButton source={paie_juin} />
+        </div>
         <p>Bulletin de paie Juin 2021</p>
       </li>
       <li>
-        <DownloadButton source={paie_juillet} />
+        <div>
+          <DownloadButton source={paie_juillet} />
+        </div>
         <p>Bulletin de paie Juillet 2021</p>
       </li>
       <li>
-        <DownloadButton source={impots} />
+        <div>
+          <DownloadButton source={impots} />
+        </div>
         <p>Fiche d'imposition 2021</p>
       </li>
       <li>
-        <DownloadButton source={contrat} />
+        <div>
+          <DownloadButton source={contrat} />
+        </div>
         <p>Contract de travail</p>
       </li>
       <li>
-        <DownloadButton source={visale} />
+        <div>
+          <DownloadButton source={visale} />
+        </div>
         <p>Certificat de garant Visale</p>
       </li>
     </ul>

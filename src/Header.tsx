@@ -8,11 +8,12 @@ export function Header() {
       <h1 class={styles.title}>Bonjour à vous</h1>
       <div class={styles.contacts}>
         <p class={styles.p}>
-          <img src={phone} class={styles.icon} /> <span>+33633772962</span>
+          <i class={styles.phone} />
+          <span>+33633772962</span>
         </p>
         <p class={styles.p}>
-          <img src={email} class={styles.icon} />{" "}
-          <span>antoine.hannelais@gmail.com</span>
+          <i class={styles.email} />
+          <span>&nbspantoine.hannelais@gmail.com</span>
         </p>
       </div>
     </header>

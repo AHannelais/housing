@@ -15,10 +15,33 @@
 }
 .p {
   margin: 1rem;
+  display: flex;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.p:hover {
+  color: #30b9c1;
+}
+.p:hover i {
+  background-color: #30b9c1;
+}
+.p span {
+  display: block;
 }
 
-.icon {
-  height: 1.5rem;
-  vertical-align: middle;
-  display: inline;
+.p i {
+  height: 1.8rem;
+  width: 1.8rem;
+  display: block;
+  background-color: black;
+}
+
+.phone {
+  -webkit-mask: url("./assets/smartphone.svg") no-repeat center;
+  mask: url("./assets/smartphone.svg") no-repeat center;
+}
+.email {
+  -webkit-mask: url("./assets/email.svg") no-repeat center;
+  mask: url("./assets/email.svg") no-repeat center;
 }

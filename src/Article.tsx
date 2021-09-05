@@ -28,7 +28,7 @@ export function Article() {
         </p>
         <p>
           C'est pour cette raison que je cherche une location ou collocation qui
-          m'en rapprocherait
+          m'en rapprocherait.
         </p>
       </section>
       <section>
@@ -39,12 +39,12 @@ export function Article() {
         <p>
           J'y ai ajouté les premières pages de mon nouveau contrat pour prouver
           qu'il s'agit d'un CDI ainsi que corriger mes revenus avec mon nouveau
-          salaire
+          salaire.
         </p>
         <p>
-          J'ai souscrit à un certificat{" "}
+          J'ai également souscrit à un certificat{" "}
           <span onClick={onClickVisale}>Visale</span> pour me servir de garant
-          dans le cas où mes revenus ne suffiraient pas
+          dans le cas où mes revenus ne suffiraient pas.
         </p>
       </section>
       <section>
